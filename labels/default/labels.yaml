@@ -24,6 +24,11 @@
   description: 'This doesn''t seem right'
   aliases: []
 -
+  name: 'is: stale'
+  color: bfd4f2
+  description: 'Nothing has happened in a while'
+  aliases: []
+-
   name: 'priority: high'
   color: B60205
   description: 'High priority'
