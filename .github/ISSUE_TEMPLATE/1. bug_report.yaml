@@ -1,4 +1,5 @@
 name: 🐛 Bug report
+title: '[BUG] <title>'
 description: Report unintentional or broken behaviour
 labels: 'type | bug' 
 body:
