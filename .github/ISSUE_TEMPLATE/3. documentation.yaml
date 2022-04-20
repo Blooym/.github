@@ -1,7 +1,7 @@
-name: ✨ Feature Request
-description: Request a new feature or an improvement to an existing one.
-title: 'Feature: '
-labels: 'type | feature'
+name: 📃 Documention Change
+description: Report issues or request changes relating to documentation.
+title: 'Documentation: '
+labels: 'type | docs'
 body: 
 
 - type: markdown
