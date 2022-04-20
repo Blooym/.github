@@ -33,16 +33,16 @@ body:
   attributes:
     label: Summary of the feature
   validations: 
-    - required: true
+    required: true
     
 - type: textarea
   attributes:
     label: A brief summary of the feature
   validations: 
-    - required: true
+    required: true
 
 - type: textarea
   attributes:
     label: Why should this be added or change?
   validations: 
-    - required: true
+    required: true
