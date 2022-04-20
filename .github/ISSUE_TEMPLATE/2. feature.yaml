@@ -1,15 +1,48 @@
----
 name: ✨ Feature Request
-about: Request a new feature or an improvement to an existing one.
+description: Request a new feature or an improvement to an existing one.
 title: 'Feature: '
 labels: 'type | feature'
----
-## Summary
-<!-- Brief explanation of the enhancement. -->
+body: 
 
-### Further Information
-<!-- Provide any other additional information needed. -->
+- type: checkboxes
+  attributes:
+    label: Preflight Checklist
+    description: Please ensure you've completed all of the following.
+    options:
+      - label: I have searched for existing issues and cannot find mine, or existing issues do not fit.
+        required: true
 
-### Motivation
-<!-- Why should this be added/changed? -->
+- type: markdown
+  attributes:
+    value: |
+      Thank you for submitting a feature request!
 
+      Please fill out the template below to make it easier to work on your issue.
+      
+- type: dropdown
+  attributes:
+    label: New or Existing?
+    description: Is this a new feature you're suggesting, or is it an improvement to an existing one?
+    options:
+      - New feature
+      - Improvement to existing feature 
+  validations:
+    required: true
+  
+- type: textinput
+  attributes:
+    label: Summary of the feature
+  validations: 
+    - required: true
+    
+- type: textinput
+  attributes:
+    label: A brief summary of the feature
+  validations: 
+    - required: true
+
+- type: textinput
+  attributes:
+    label: Why should this be added or change?
+  validations: 
+    - required: true
