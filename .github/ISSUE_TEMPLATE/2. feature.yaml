@@ -34,12 +34,6 @@ body:
     label: Summary of the feature
   validations: 
     required: true
-    
-- type: textarea
-  attributes:
-    label: A brief summary of the feature
-  validations: 
-    required: true
 
 - type: textarea
   attributes:
