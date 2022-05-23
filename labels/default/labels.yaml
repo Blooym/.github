@@ -24,6 +24,11 @@
   description: 'This doesn''t seem right'
   aliases: []
 -
+  name: 'out of scope'
+  color: FBCA04
+  description: 'This is out of scope for the project'
+  aliases: []
+-
   name: stale
   color: bfd4f2
   description: 'Nothing has happened in a while'
